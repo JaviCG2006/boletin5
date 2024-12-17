@@ -15,12 +15,6 @@ import java.util.Scanner;
 	        // Creamos un objeto Scanner para leer la entrada del usuario
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.print("¿Cuántas veces quieres que se imprima el mensaje?");
-	        int n = scanner.nextInt();
-	        
-
-	        eco(n);
-
 	        scanner.close();
 	    }
 	}
